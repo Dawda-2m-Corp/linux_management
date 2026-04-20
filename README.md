@@ -2,7 +2,7 @@
 
 A comprehensive collection of bash scripts for managing and maintaining Linux systems. This repository provides unified interfaces for common system administration tasks including monitoring, backups, user management, network configuration, and security hardening.
 
-## 🚀 Features
+## Features
 
 - **System Monitoring** - Real-time resource monitoring with configurable alerts
 - **Package Management** - Unified interface for different package managers (apt, yum, dnf, pacman, zypper)
@@ -13,7 +13,7 @@ A comprehensive collection of bash scripts for managing and maintaining Linux sy
 - **Network Configuration** - Network interface and routing management
 - **Security Hardening** - Basic security audit and hardening tools
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 linux_management/
@@ -33,7 +33,7 @@ linux_management/
 └── README.md           # This file
 ```
 
-## 🛠️ Quick Start
+## Quick Start
 
 ### Installation
 
@@ -150,7 +150,7 @@ sudo ./scripts/security/security_hardening.sh harden
 sudo ./scripts/security/security_hardening.sh ssh-harden
 ```
 
-## 📋 Script Details
+## Script Details
 
 ### System Scripts
 
@@ -215,7 +215,7 @@ Configuration files are located in the `config/` directory:
 - `system_monitor.conf` - Monitoring thresholds and settings
 - `backup.conf` - Backup destinations and retention policies
 
-## 🔄 Automation
+## Automation
 
 The `examples/` directory contains:
 
@@ -235,7 +235,7 @@ The `examples/` directory contains:
 0 3 * * 0 /path/to/linux_management/scripts/logs/log_analyzer.sh -s
 ```
 
-## 🔒 Security Considerations
+## Security Considerations
 
 - **Always test scripts in a non-production environment first**
 - **Review script contents before running with root privileges**
@@ -243,14 +243,14 @@ The `examples/` directory contains:
 - **Monitor logs in `/var/log/` for operation details**
 - **Use the security hardening script to improve system security**
 
-## 📊 Logging
+## Logging
 
 Most scripts log their activities to `/var/log/`:
 - System monitor: `/var/log/system_monitor.log`
 - Backup operations: `/var/log/backup.log`
 - Security operations: `/var/log/security_hardening.log`
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -258,7 +258,7 @@ Most scripts log their activities to `/var/log/`:
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is open source. Please ensure you understand and comply with your organization's policies before using these scripts in production environments.
 
@@ -266,10 +266,10 @@ This project is open source. Please ensure you understand and comply with your o
 
 These scripts are provided as-is. Always test in a non-production environment and ensure you have proper backups before running any system administration scripts. The authors are not responsible for any damage or data loss that may occur from using these scripts.
 
-## 📞 Support
+## Support
 
 For issues, questions, or contributions, please use the GitHub issue tracker.
 
 ---
 
-**Happy Linux Administration!** 🐧
+**Happy Linux Administration!**
